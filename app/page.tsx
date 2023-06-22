@@ -1,5 +1,6 @@
 import Image from 'next/image'
 
+/*
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
@@ -107,6 +108,33 @@ export default function Home() {
             Instantly deploy your Next.js site to a shareable URL with Vercel.
           </p>
         </a>
+      </div>
+    </main>
+  )
+}
+*/
+
+export default function Home(){
+  return (
+    <main id='puzzle-background' className='flex justify-center h-screen'>
+      <div className='inline-flex w-5/6 h-5/6 border-2 border-white
+      m-2 p-2'>
+        <div className='flex-col w-1/2'>
+          <div id='design-background' className='border-2 border-white h-1/2 m-1 px-2 py-1'>
+            Design
+          </div>
+          <div id='hobby-background' className='border-2 border-white h-1/2 m-1 px-2 py-1'>
+            Hobbies
+          </div>
+        </div>
+        <div className='flex-col w-1/2'>
+          <div id='security-background' className='border-2 border-white h-1/2 m-1 px-2 py-1'>
+            Security
+          </div>
+          <div id='project-background' className='border-2 border-white h-1/2 m-1 px-2 py-1'>
+            Projects
+          </div>
+        </div>
       </div>
     </main>
   )
