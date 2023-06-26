@@ -26,7 +26,7 @@ function Navigation () {
           height={50}
           priority
         />
-        <h1 className='font-mono text-2xl'>Portfolio</h1>
+        <h1>{metadata.title}</h1>
         <div className='flex flex-row justify-end items-center'>
           <Link href="/">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="h-6 aspect-square mx-2">
