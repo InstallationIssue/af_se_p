@@ -16,8 +16,11 @@
   }
 }
 
+* {
+  font-family: 'Courier New', Courier, monospace;
+}
+
 body {
-  font-family: ui-monospace;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -28,31 +31,32 @@ body {
 }
 
 h1 {
-  font-family: 'Courier New', Courier, monospace;
-  font-size: xx-large;
-  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: 500;
 }
 
 h2 {
-  font-family: monospace;
-  font-size: x-large;
-  font-style: normal;
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1;
 }
 
 h3 {
-  font-family: monospace;
-  font-size: large;
+  font-size: 2rem;
   font-style: italic;
+  line-height: 1;
 }
 
 h4 {
-  font-family: monospace;
-  font-size: medium;
+  font-size: 1.5rem;
   font-style: oblique;
+  line-height: 1;
 }
 
 p {
-  font-family: monospace;
+  font-size: 1rem;
+  line-height: 1.2;
 }
 
 .bg-dark-purple {
